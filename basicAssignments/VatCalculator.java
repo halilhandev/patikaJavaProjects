@@ -17,5 +17,7 @@ public class VatCalculator {
         System.out.println("According to amount of the price, VAT: " + usingVat);
         System.out.println("Amount of VAT: " + totalVat);
         System.out.println("Price with VAT: "+ pricewithVat);
+
+        input.close();
     }
 }
